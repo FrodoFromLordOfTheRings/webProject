@@ -1,0 +1,292 @@
+@font-face
+{
+	font-family: SourceSansPro-Light;
+	src: url("assets/Source_Sans_Pro/SourceSansPro-Light.ttf");
+}
+
+
+body
+{
+	font-size: 15pt;
+	font-family: SourceSansPro-Light, sans-serif;
+	color: #ffffff;
+	background-color: #020A0E;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+h1
+{
+	font-size: 60pt;
+	margin: 0;
+	text-align: center;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+button
+{
+	background-color: #051822;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	border: none;
+	color: #ffffff;
+	padding: 10px 120px;
+	transition: 0.4s;
+	border-radius: 10px;
+}
+
+button:hover
+{
+	box-shadow: 0 0 30px #4dcaff;
+}
+
+input
+{
+	background-color: #051822;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	border: none;
+	color: #ffffff;
+	height: 33px;
+	width: 230px;
+	box-shadow: inset 0 0 15px #4dcaff;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+
+
+
+/* Holds all main content in page with space for footer. */
+#container
+{
+	position: relative;
+	min-height: 90vh;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+
+
+
+/* Top navigation menu. */
+#menu
+{
+	width: 100%;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#menu li
+{
+	display: inline;
+}
+
+#menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#menu ul li a
+{
+	float: left;
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: 0.4s;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+#menu table
+{
+	border-collapse: separate;
+	border: none;
+	border-spacing: 2vw 10px;
+}
+
+#menu ul li a:hover
+{
+	background-color: #051822;
+	box-shadow: 0 0 30px #4dcaff;
+}
+
+
+
+
+/* Highlights Populate Database in page 1. */
+#menu1 #menu ul li:nth-child(1) a
+{
+	background-color: #051822;
+	box-shadow: 0 0 30px #4dcaff;
+}
+
+/* Highlights Top 10 Searches in page 2. */
+#menu2 #menu ul li:nth-child(2) a
+{
+	background-color: #051822;
+	box-shadow: 0 0 30px #4dcaff;
+}
+
+/* Highlights Search in page 3. */
+#menu3 #menu ul li:nth-child(3) a
+{
+	background-color: #051822;
+	box-shadow: 0 0 30px #4dcaff;
+}
+
+/* Main div for page 1: Populate Database. */
+#main1
+{
+	margin-top: 120px;
+	margin-left: 33%;
+	margin-right: 33%;
+	
+}
+
+/* Main div for page 2: Top 10 Searches. */
+#main2
+{
+	background-color: #051822;
+	margin-top: 33px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 15px #4dcaff;
+}
+
+/* Main div for page 3: Search. */
+#main3
+{
+	margin-top: 33px;
+	margin-left: 33%;
+	margin-right: 43%;
+	font-size: 30px;
+	text-align: right;
+	word-spacing: 15px;
+}
+
+#main3 button
+{
+	margin-left: 170px;
+}
+
+/* Search results table. */
+#table
+{
+	background-color: #051822;
+	border: none;
+	box-shadow: inset 0 0 15px #4dcaff;
+	padding: 10px 15px 15px 15px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#table table
+{
+	margin: auto;
+	text-align: left;
+}
+
+#table table, tr, th
+{
+	border-collapse: collapse;
+	border-bottom: 1px solid #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#table td
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	text-align: left;
+}
+
+
+
+
+/* Footer. */
+#footer
+{
+	text-align: center;
+	position: absolute;
+	width:100%;
+	bottom: 0;
+}
+
+#footer a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
